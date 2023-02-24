@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FrontDesignRSC
 {
-    public partial class Form1 : Form
+    public partial class RSCHome : Form
     {
-        public Form1()
+        public RSCHome()
         {
             InitializeComponent();
         }

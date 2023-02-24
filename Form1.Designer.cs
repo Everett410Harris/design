@@ -1,6 +1,6 @@
 ﻿namespace FrontDesignRSC
 {
-    partial class Form1
+    partial class RSCHome
     {
         /// <summary>
         /// Required designer variable.
@@ -28,67 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.BKGRDImage = new System.Windows.Forms.Panel();
-            this.LogTxtBx = new System.Windows.Forms.PictureBox();
-            this.UnityLogo = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.BKGRDImage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LogTxtBx)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RSCHome));
             this.SuspendLayout();
             // 
-            // BKGRDImage
-            // 
-            this.BKGRDImage.Controls.Add(this.textBox1);
-            this.BKGRDImage.Controls.Add(this.UnityLogo);
-            this.BKGRDImage.Controls.Add(this.LogTxtBx);
-            resources.ApplyResources(this.BKGRDImage, "BKGRDImage");
-            this.BKGRDImage.Name = "BKGRDImage";
-            // 
-            // LogTxtBx
-            // 
-            this.LogTxtBx.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.LogTxtBx, "LogTxtBx");
-            this.LogTxtBx.Name = "LogTxtBx";
-            this.LogTxtBx.TabStop = false;
-            // 
-            // UnityLogo
-            // 
-            this.UnityLogo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            resources.ApplyResources(this.UnityLogo, "UnityLogo");
-            this.UnityLogo.Name = "UnityLogo";
-            this.UnityLogo.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.Color.SpringGreen;
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            // 
-            // Form1
+            // RSCHome
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.BKGRDImage);
-            this.Name = "Form1";
-            this.BKGRDImage.ResumeLayout(false);
-            this.BKGRDImage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LogTxtBx)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).EndInit();
+            this.Name = "RSCHome";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel BKGRDImage;
-        private System.Windows.Forms.PictureBox LogTxtBx;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox UnityLogo;
     }
 }
 
