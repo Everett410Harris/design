@@ -117,7 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;UnityLogo.Name" xml:space="preserve">
+    <value>UnityLogo</value>
+  </data>
+  <data name="&gt;&gt;UnityLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnityLogo.Parent" xml:space="preserve">
+    <value>IconPn</value>
+  </data>
+  <data name="&gt;&gt;UnityLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="IconPn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 12</value>
+  </data>
+  <data name="IconPn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 68</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IconPn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IconPn.Name" xml:space="preserve">
+    <value>IconPn</value>
+  </data>
+  <data name="&gt;&gt;IconPn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IconPn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IconPn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="UnityLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
@@ -399,7 +433,6 @@
   <data name="UnityLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="UnityLogo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -414,27 +447,6 @@
   </data>
   <data name="&gt;&gt;UnityLogo.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="IconPn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 12</value>
-  </data>
-  <data name="IconPn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 68</value>
-  </data>
-  <data name="IconPn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;IconPn.Name" xml:space="preserve">
-    <value>IconPn</value>
-  </data>
-  <data name="&gt;&gt;IconPn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;IconPn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;IconPn.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="LogoLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

@@ -62,7 +62,7 @@
             // 
             resources.ApplyResources(this.VOnOLbl, "VOnOLbl");
             this.VOnOLbl.BackColor = System.Drawing.Color.Transparent;
-            this.VOnOLbl.ForeColor = System.Drawing.Color.ForestGreen;
+            this.VOnOLbl.ForeColor = System.Drawing.Color.Lime;
             this.VOnOLbl.Name = "VOnOLbl";
             // 
             // RSCHome
