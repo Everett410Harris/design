@@ -30,22 +30,44 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BKGRDImage = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.LogTxtBx = new System.Windows.Forms.PictureBox();
+            this.UnityLogo = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.BKGRDImage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LogTxtBx)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // BKGRDImage
             // 
-            this.BKGRDImage.Controls.Add(this.pictureBox1);
+            this.BKGRDImage.Controls.Add(this.textBox1);
+            this.BKGRDImage.Controls.Add(this.UnityLogo);
+            this.BKGRDImage.Controls.Add(this.LogTxtBx);
             resources.ApplyResources(this.BKGRDImage, "BKGRDImage");
             this.BKGRDImage.Name = "BKGRDImage";
             // 
-            // pictureBox1
+            // LogTxtBx
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
+            this.LogTxtBx.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.LogTxtBx, "LogTxtBx");
+            this.LogTxtBx.Name = "LogTxtBx";
+            this.LogTxtBx.TabStop = false;
+            // 
+            // UnityLogo
+            // 
+            this.UnityLogo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            resources.ApplyResources(this.UnityLogo, "UnityLogo");
+            this.UnityLogo.Name = "UnityLogo";
+            this.UnityLogo.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.ForeColor = System.Drawing.Color.SpringGreen;
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             // 
             // Form1
             // 
@@ -54,7 +76,9 @@
             this.Controls.Add(this.BKGRDImage);
             this.Name = "Form1";
             this.BKGRDImage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.BKGRDImage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LogTxtBx)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -62,7 +86,9 @@
         #endregion
 
         private System.Windows.Forms.Panel BKGRDImage;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox LogTxtBx;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox UnityLogo;
     }
 }
 
