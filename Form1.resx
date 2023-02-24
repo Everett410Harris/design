@@ -117,41 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;UnityLogo.Name" xml:space="preserve">
-    <value>UnityLogo</value>
-  </data>
-  <data name="&gt;&gt;UnityLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UnityLogo.Parent" xml:space="preserve">
-    <value>IconPn</value>
-  </data>
-  <data name="&gt;&gt;UnityLogo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="IconPn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 12</value>
-  </data>
-  <data name="IconPn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 68</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="IconPn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;IconPn.Name" xml:space="preserve">
-    <value>IconPn</value>
-  </data>
-  <data name="&gt;&gt;IconPn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;IconPn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;IconPn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="UnityLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
@@ -433,6 +399,7 @@
   <data name="UnityLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="UnityLogo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -447,6 +414,27 @@
   </data>
   <data name="&gt;&gt;UnityLogo.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="IconPn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 12</value>
+  </data>
+  <data name="IconPn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 68</value>
+  </data>
+  <data name="IconPn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IconPn.Name" xml:space="preserve">
+    <value>IconPn</value>
+  </data>
+  <data name="&gt;&gt;IconPn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IconPn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IconPn.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="LogoLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -476,7 +464,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LogoLbl.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="VOnOLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -488,7 +476,7 @@
     <value>NoControl</value>
   </data>
   <data name="VOnOLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>809, 34</value>
+    <value>18, 115</value>
   </data>
   <data name="VOnOLbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>407, 31</value>
@@ -512,6 +500,118 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;VOnOLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="InventoryTxtBx.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="InventoryTxtBx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia Pro, 15.75pt</value>
+  </data>
+  <data name="InventoryTxtBx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="InventoryTxtBx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="InventoryTxtBx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="InventoryTxtBx.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="&gt;&gt;InventoryTxtBx.Name" xml:space="preserve">
+    <value>InventoryTxtBx</value>
+  </data>
+  <data name="&gt;&gt;InventoryTxtBx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InventoryTxtBx.Parent" xml:space="preserve">
+    <value>NavPnl</value>
+  </data>
+  <data name="&gt;&gt;InventoryTxtBx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="InvIconPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="InvIconPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 9</value>
+  </data>
+  <data name="InvIconPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 50</value>
+  </data>
+  <data name="InvIconPic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="InvIconPic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InvIconPic.Name" xml:space="preserve">
+    <value>InvIconPic</value>
+  </data>
+  <data name="&gt;&gt;InvIconPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InvIconPic.Parent" xml:space="preserve">
+    <value>NavPnl</value>
+  </data>
+  <data name="&gt;&gt;InvIconPic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NavPnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 15</value>
+  </data>
+  <data name="NavPnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 69</value>
+  </data>
+  <data name="NavPnl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NavPnl.Name" xml:space="preserve">
+    <value>NavPnl</value>
+  </data>
+  <data name="&gt;&gt;NavPnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NavPnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NavPnl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2074,7 +2174,7 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1239, 830</value>
+    <value>1210, 805</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Rebuffed, 8.25pt</value>

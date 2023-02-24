@@ -33,8 +33,13 @@
             this.UnityLogo = new System.Windows.Forms.PictureBox();
             this.LogoLbl = new System.Windows.Forms.Label();
             this.VOnOLbl = new System.Windows.Forms.Label();
+            this.NavPnl = new System.Windows.Forms.Panel();
+            this.InvIconPic = new System.Windows.Forms.PictureBox();
+            this.InventoryTxtBx = new System.Windows.Forms.TextBox();
             this.IconPn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
+            this.NavPnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).BeginInit();
             this.SuspendLayout();
             // 
             // IconPn
@@ -65,16 +70,44 @@
             this.VOnOLbl.ForeColor = System.Drawing.Color.Lime;
             this.VOnOLbl.Name = "VOnOLbl";
             // 
+            // NavPnl
+            // 
+            this.NavPnl.BackColor = System.Drawing.Color.Transparent;
+            this.NavPnl.Controls.Add(this.InventoryTxtBx);
+            this.NavPnl.Controls.Add(this.InvIconPic);
+            resources.ApplyResources(this.NavPnl, "NavPnl");
+            this.NavPnl.Name = "NavPnl";
+            // 
+            // InvIconPic
+            // 
+            resources.ApplyResources(this.InvIconPic, "InvIconPic");
+            this.InvIconPic.Name = "InvIconPic";
+            this.InvIconPic.TabStop = false;
+            // 
+            // InventoryTxtBx
+            // 
+            resources.ApplyResources(this.InventoryTxtBx, "InventoryTxtBx");
+            this.InventoryTxtBx.BackColor = System.Drawing.SystemColors.MenuText;
+            this.InventoryTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.InventoryTxtBx.ForeColor = System.Drawing.Color.Lime;
+            this.InventoryTxtBx.Name = "InventoryTxtBx";
+            this.InventoryTxtBx.ReadOnly = true;
+            // 
             // RSCHome
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.NavPnl);
             this.Controls.Add(this.VOnOLbl);
             this.Controls.Add(this.LogoLbl);
             this.Controls.Add(this.IconPn);
             this.Name = "RSCHome";
+            this.ShowIcon = false;
             this.IconPn.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).EndInit();
+            this.NavPnl.ResumeLayout(false);
+            this.NavPnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,6 +119,9 @@
         private System.Windows.Forms.PictureBox UnityLogo;
         private System.Windows.Forms.Label LogoLbl;
         private System.Windows.Forms.Label VOnOLbl;
+        private System.Windows.Forms.Panel NavPnl;
+        private System.Windows.Forms.TextBox InventoryTxtBx;
+        private System.Windows.Forms.PictureBox InvIconPic;
     }
 }
 
