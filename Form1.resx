@@ -488,7 +488,7 @@
     <value>NoControl</value>
   </data>
   <data name="VOnOLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>794, 30</value>
+    <value>809, 34</value>
   </data>
   <data name="VOnOLbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>407, 31</value>
@@ -498,6 +498,9 @@
   </data>
   <data name="VOnOLbl.Text" xml:space="preserve">
     <value>VETERAN OWNED &amp; OPERATED</value>
+  </data>
+  <data name="VOnOLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
   </data>
   <data name="&gt;&gt;VOnOLbl.Name" xml:space="preserve">
     <value>VOnOLbl</value>
@@ -2071,13 +2074,10 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1223, 798</value>
+    <value>1239, 830</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Rebuffed, 8.25pt</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
