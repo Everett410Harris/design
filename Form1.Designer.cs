@@ -34,8 +34,8 @@
             this.LogoLbl = new System.Windows.Forms.Label();
             this.VOnOLbl = new System.Windows.Forms.Label();
             this.NavPnl = new System.Windows.Forms.Panel();
-            this.InvIconPic = new System.Windows.Forms.PictureBox();
             this.InventoryTxtBx = new System.Windows.Forms.TextBox();
+            this.InvIconPic = new System.Windows.Forms.PictureBox();
             this.IconPn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
             this.NavPnl.SuspendLayout();
@@ -78,12 +78,6 @@
             resources.ApplyResources(this.NavPnl, "NavPnl");
             this.NavPnl.Name = "NavPnl";
             // 
-            // InvIconPic
-            // 
-            resources.ApplyResources(this.InvIconPic, "InvIconPic");
-            this.InvIconPic.Name = "InvIconPic";
-            this.InvIconPic.TabStop = false;
-            // 
             // InventoryTxtBx
             // 
             resources.ApplyResources(this.InventoryTxtBx, "InventoryTxtBx");
@@ -92,6 +86,12 @@
             this.InventoryTxtBx.ForeColor = System.Drawing.Color.Lime;
             this.InventoryTxtBx.Name = "InventoryTxtBx";
             this.InventoryTxtBx.ReadOnly = true;
+            // 
+            // InvIconPic
+            // 
+            resources.ApplyResources(this.InvIconPic, "InvIconPic");
+            this.InvIconPic.Name = "InvIconPic";
+            this.InvIconPic.TabStop = false;
             // 
             // RSCHome
             // 
