@@ -16,5 +16,10 @@ namespace FrontDesignRSC
         {
             InitializeComponent();
         }
+
+        private void Show(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Shows the inventory form
+        }
     }
 }
