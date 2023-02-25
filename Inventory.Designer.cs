@@ -37,13 +37,13 @@
             this.InventroyLink = new System.Windows.Forms.LinkLabel();
             this.CustomIconPic = new System.Windows.Forms.PictureBox();
             this.CustomLink = new System.Windows.Forms.LinkLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ServicesIconPic = new System.Windows.Forms.PictureBox();
             this.ServicesLink = new System.Windows.Forms.LinkLabel();
             this.IconPn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CustomIconPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ServicesIconPic)).BeginInit();
             this.SuspendLayout();
             // 
             // IconPn
@@ -147,16 +147,16 @@
             this.CustomLink.TabStop = true;
             this.CustomLink.Text = "Customaize ";
             // 
-            // pictureBox1
+            // ServicesIconPic
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1234, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 68);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.ServicesIconPic.BackColor = System.Drawing.Color.Transparent;
+            this.ServicesIconPic.Image = ((System.Drawing.Image)(resources.GetObject("ServicesIconPic.Image")));
+            this.ServicesIconPic.Location = new System.Drawing.Point(1234, 12);
+            this.ServicesIconPic.Name = "ServicesIconPic";
+            this.ServicesIconPic.Size = new System.Drawing.Size(100, 68);
+            this.ServicesIconPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ServicesIconPic.TabIndex = 9;
+            this.ServicesIconPic.TabStop = false;
             // 
             // ServicesLink
             // 
@@ -179,7 +179,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1451, 816);
             this.Controls.Add(this.ServicesLink);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.ServicesIconPic);
             this.Controls.Add(this.CustomLink);
             this.Controls.Add(this.CustomIconPic);
             this.Controls.Add(this.InventroyLink);
@@ -193,7 +193,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CustomIconPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ServicesIconPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,7 +209,7 @@
         private System.Windows.Forms.LinkLabel InventroyLink;
         private System.Windows.Forms.PictureBox CustomIconPic;
         private System.Windows.Forms.LinkLabel CustomLink;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox ServicesIconPic;
         private System.Windows.Forms.LinkLabel ServicesLink;
     }
 }
