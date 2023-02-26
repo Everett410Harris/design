@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace FrontDesignRSC 
 {
-    public partial class RSCHome : Inventory
+    public partial class RSCHome : Form
     {
         public RSCHome()
         {

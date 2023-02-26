@@ -90,7 +90,7 @@
             this.InventroyLink.Name = "InventroyLink";
             this.InventroyLink.TabStop = true;
             this.InventroyLink.VisitedLinkColor = System.Drawing.Color.Red;
-            this.InventroyLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.InventroyLink_LinkClicked);
+            
             // 
             // CustomIconPic
             // 
