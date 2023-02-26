@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FrontDesignRSC
+namespace FrontDesignRSC 
 {
-    public partial class RSCHome : Form
+    public partial class RSCHome : Inventory
     {
         public RSCHome()
         {
@@ -19,11 +19,11 @@ namespace FrontDesignRSC
         }
 
 
-        private void InventroyLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void InventoryLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e, IWin32Window Inventory)
         {
             // SHOWS THE INVENTORY PAGE OF WEBSITE
-            Form F2 = new Form();
-            F2.Show();
+            Form F1 = new Form();
+            F1.Show( owner:Inventory);
             InventroyLink.LinkVisited = true;
             try 
             {
