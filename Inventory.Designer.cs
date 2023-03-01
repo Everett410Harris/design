@@ -34,11 +34,11 @@
             this.LogoLbl = new System.Windows.Forms.Label();
             this.VOnOLbl = new System.Windows.Forms.Label();
             this.InvIconPic = new System.Windows.Forms.PictureBox();
-            this.InventroyLink = new System.Windows.Forms.LinkLabel();
             this.CustomIconPic = new System.Windows.Forms.PictureBox();
             this.CustomLink = new System.Windows.Forms.LinkLabel();
             this.ServicesIconPic = new System.Windows.Forms.PictureBox();
             this.ServicesLink = new System.Windows.Forms.LinkLabel();
+            this.InventoryComBx = new System.Windows.Forms.ComboBox();
             this.IconPn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).BeginInit();
@@ -105,23 +105,6 @@
             this.InvIconPic.TabIndex = 5;
             this.InvIconPic.TabStop = false;
             // 
-            // InventroyLink
-            // 
-            this.InventroyLink.ActiveLinkColor = System.Drawing.Color.Lime;
-            this.InventroyLink.AutoSize = true;
-            this.InventroyLink.BackColor = System.Drawing.Color.Transparent;
-            this.InventroyLink.Font = new System.Drawing.Font("Rebuffed", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InventroyLink.LinkColor = System.Drawing.Color.Lime;
-            this.InventroyLink.LinkVisited = true;
-            this.InventroyLink.Location = new System.Drawing.Point(743, 38);
-            this.InventroyLink.Name = "InventroyLink";
-            this.InventroyLink.Size = new System.Drawing.Size(109, 42);
-            this.InventroyLink.TabIndex = 6;
-            this.InventroyLink.TabStop = true;
-            this.InventroyLink.Text = "Inventory";
-            this.InventroyLink.VisitedLinkColor = System.Drawing.Color.Red;
-            this.InventroyLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Show);
-            // 
             // CustomIconPic
             // 
             this.CustomIconPic.BackColor = System.Drawing.Color.Transparent;
@@ -172,17 +155,36 @@
             this.ServicesLink.TabStop = true;
             this.ServicesLink.Text = "Services";
             // 
+            // InventoryComBx
+            // 
+            this.InventoryComBx.BackColor = System.Drawing.SystemColors.InfoText;
+            this.InventoryComBx.Font = new System.Drawing.Font("Rebuffed", 18F);
+            this.InventoryComBx.ForeColor = System.Drawing.Color.Red;
+            this.InventoryComBx.FormattingEnabled = true;
+            this.InventoryComBx.Items.AddRange(new object[] {
+            "CPUs",
+            "GPUs",
+            "MotherBoards",
+            "SSD/RAM",
+            "OS",
+            "CPU Cooler"});
+            this.InventoryComBx.Location = new System.Drawing.Point(743, 41);
+            this.InventoryComBx.Name = "InventoryComBx";
+            this.InventoryComBx.Size = new System.Drawing.Size(160, 40);
+            this.InventoryComBx.TabIndex = 13;
+            this.InventoryComBx.Text = "INVENTORY";
+            // 
             // Inventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1451, 816);
+            this.Controls.Add(this.InventoryComBx);
             this.Controls.Add(this.ServicesLink);
             this.Controls.Add(this.ServicesIconPic);
             this.Controls.Add(this.CustomLink);
             this.Controls.Add(this.CustomIconPic);
-            this.Controls.Add(this.InventroyLink);
             this.Controls.Add(this.InvIconPic);
             this.Controls.Add(this.VOnOLbl);
             this.Controls.Add(this.LogoLbl);
@@ -206,10 +208,10 @@
         private System.Windows.Forms.Label LogoLbl;
         private System.Windows.Forms.Label VOnOLbl;
         private System.Windows.Forms.PictureBox InvIconPic;
-        private System.Windows.Forms.LinkLabel InventroyLink;
         private System.Windows.Forms.PictureBox CustomIconPic;
         private System.Windows.Forms.LinkLabel CustomLink;
         private System.Windows.Forms.PictureBox ServicesIconPic;
         private System.Windows.Forms.LinkLabel ServicesLink;
+        private System.Windows.Forms.ComboBox InventoryComBx;
     }
 }

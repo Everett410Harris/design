@@ -39,15 +39,11 @@
             this.CustomLink = new System.Windows.Forms.LinkLabel();
             this.ServicesIconPic = new System.Windows.Forms.PictureBox();
             this.ServicesLink = new System.Windows.Forms.LinkLabel();
-            this.UnderConstructionPnl = new System.Windows.Forms.Panel();
-            this.UnderConstructPic = new System.Windows.Forms.PictureBox();
             this.IconPn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnityLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CustomIconPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServicesIconPic)).BeginInit();
-            this.UnderConstructionPnl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UnderConstructPic)).BeginInit();
             this.SuspendLayout();
             // 
             // IconPn
@@ -126,24 +122,10 @@
             this.ServicesLink.Name = "ServicesLink";
             this.ServicesLink.TabStop = true;
             // 
-            // UnderConstructionPnl
-            // 
-            this.UnderConstructionPnl.BackColor = System.Drawing.Color.Transparent;
-            this.UnderConstructionPnl.Controls.Add(this.UnderConstructPic);
-            resources.ApplyResources(this.UnderConstructionPnl, "UnderConstructionPnl");
-            this.UnderConstructionPnl.Name = "UnderConstructionPnl";
-            // 
-            // UnderConstructPic
-            // 
-            resources.ApplyResources(this.UnderConstructPic, "UnderConstructPic");
-            this.UnderConstructPic.Name = "UnderConstructPic";
-            this.UnderConstructPic.TabStop = false;
-            // 
             // RSCHome
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.UnderConstructionPnl);
             this.Controls.Add(this.ServicesLink);
             this.Controls.Add(this.ServicesIconPic);
             this.Controls.Add(this.CustomLink);
@@ -160,8 +142,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.InvIconPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CustomIconPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServicesIconPic)).EndInit();
-            this.UnderConstructionPnl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.UnderConstructPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,8 +159,6 @@
         private System.Windows.Forms.LinkLabel CustomLink;
         private System.Windows.Forms.PictureBox ServicesIconPic;
         private System.Windows.Forms.LinkLabel ServicesLink;
-        private System.Windows.Forms.Panel UnderConstructionPnl;
-        private System.Windows.Forms.PictureBox UnderConstructPic;
     }
 }
 
